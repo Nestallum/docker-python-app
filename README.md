@@ -4,7 +4,7 @@ Python application running within a Docker container.
 ## Docker image
 -  Image Name: python-app
 
-## Docker hub link
+## Docker Hub Image Link
 You can find the Docker image on Docker Hub at the following link:
 https://hub.docker.com/r/nestallum/python-app
 
