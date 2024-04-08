@@ -1,5 +1,13 @@
 # docker-python-app
 Python application running within a Docker container.
 
-## Run the code
-![Texte alternatif]([https://gyazo.com/e4fc65c467fa5519d6131497fe1480f4])
+## Docker image
+-  Image Name: python-app
+
+## Docker Hub Image Link
+You can find the Docker image on Docker Hub at the following link:
+https://hub.docker.com/r/nestallum/python-app
+
+## Docker run command
+To run the Docker container with this Python application, you can use the following command:
+![exécution du code via la commande docker run](execution_code.png)
