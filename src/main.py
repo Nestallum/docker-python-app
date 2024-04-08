@@ -4,16 +4,16 @@ import pandas as pd
 app = Flask(__name__)
 
 def generate_html_from_dataframe(df):
-    html = "<h1>Données des étudiants</h1>"
+    html = "<h1>Student Data</h1>"
     html += df.to_html(index=False)
     return html
 
 @app.route('/')
 def index():
     data = {
-        'Nom': ['LATTAB', 'AZZAOUI'],
-        'Prénom': ['Nassim', 'Mohamed'],
-        'Numéro étudiant': ['123456789', '987654321']
+        'First Name': ['LATTAB', 'AZZAOUI'],
+        'Last Name': ['Nassim', 'Mohamed'],
+        'Student Number': ['123456789', '987654321']
     }
     df = pd.DataFrame(data)
     return generate_html_from_dataframe(df)
