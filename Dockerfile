@@ -12,5 +12,7 @@ RUN pip install -r requirements.txt
 # Copier le code source depuis le dossier src
 COPY src/ .
 
+EXPOSE 8080
+
 # Commande par défaut à exécuter lorsque le conteneur démarre
 CMD ["python", "main.py"]
