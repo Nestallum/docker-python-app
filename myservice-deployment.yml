@@ -13,7 +13,7 @@ spec:
         app: myservice
     spec:
       containers:
-        - image: nestallum/python-app:1
+        - image: nestallum/python-docker-app:1
           imagePullPolicy: IfNotPresent
           name: myservice
       restartPolicy: Always
