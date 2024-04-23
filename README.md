@@ -2,7 +2,7 @@
 Python application running within a Docker container.
 
 ## Docker image
--  Image Name: python-app
+-  Image Name: python-docker-app
 
 ## Docker Hub Image Link
 You can find the Docker image on Docker Hub at the following link:
