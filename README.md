@@ -1,4 +1,4 @@
-# docker-python-app
+# python-docker-app
 Python application running within a Docker container.
 
 ## Docker image
