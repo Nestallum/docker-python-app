@@ -7,7 +7,7 @@ spec:
     - nodePort: 31280
       port: 8080
       protocol: TCP
-      targetPort: 4000
+      targetPort: 8080
   selector:
     app: myservice
   type: NodePort
