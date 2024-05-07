@@ -12,8 +12,7 @@ https://hub.docker.com/r/nestallum/python-docker-app
 To run this Python application in a browser, you can use the following commands:
 
 Exécution du code via l'image docker :
-
-     docker run -p 4000:8080 -t python-docker-app
+```docker run -p 4000:8080 -t python-docker-app```
 https://github.com/Nestallum/docker-python-app/blob/main/screenshots/docker_image.png
 
 Exécution du code via un service :
