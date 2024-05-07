@@ -11,19 +11,22 @@ https://hub.docker.com/r/nestallum/python-docker-app
 ## Docker App run command
 To run this Python application in a browser, you can use the following commands:
 
-Exécution du code via l'image docker :
-```docker run -p 4000:8080 -t python-docker-app```
-https://github.com/Nestallum/docker-python-app/blob/main/screenshots/docker_image.png
+- **Running the application via Docker image :**
+    ```bash
+    docker run -p 4000:8080 -t python-docker-app
+    ```
+    Click [here](https://github.com/Nestallum/docker-python-app/blob/main/screenshots/docker_image.png) to view the execution of the application using Docker image.
 
-Exécution du code via un service :
+- **Running the application via a service :**
+    ```bash
+    minikube service myservice --url
+    ```
+    Click [here](https://github.com/Nestallum/docker-python-app/blob/main/screenshots/service.png) to view the execution of the application using the service.
 
-     minikube service myservice --url
-https://github.com/Nestallum/docker-python-app/blob/main/screenshots/service.png
-
-Exécution du code via ingress :
-
-     minikube addons enable ingress-dns
-     minikube tunnel 
-https://github.com/Nestallum/docker-python-app/blob/main/screenshots/ingress.png
-
+- **Running the application via Ingress :**
+    ```bash
+    minikube addons enable ingress-dns
+    minikube tunnel
+    ```
+    Click [here](https://github.com/Nestallum/docker-python-app/blob/main/screenshots/ingress.png) to view the execution of the application using Ingress.
 
