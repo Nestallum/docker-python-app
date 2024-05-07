@@ -15,16 +15,16 @@ To run the Docker container with this Python application, you can use the follow
      
 
 - Exécution du code via l'image docker :
--      docker run -p 4000:8080 -t python-docker-app
+     docker run -p 4000:8080 -t python-docker-app
 https://github.com/Nestallum/docker-python-app/blob/main/screenshots/docker_image.png
 
 - Exécution du code via un service :
--     minikube service myservice --url
+     minikube service myservice --url
 https://github.com/Nestallum/docker-python-app/blob/main/screenshots/service.png
 
 - Exécution du code via ingress :
--     minikube addons enable ingress-dns
--     minikube tunnel 
+     minikube addons enable ingress-dns
+     minikube tunnel 
 https://github.com/Nestallum/docker-python-app/blob/main/screenshots/ingress.png
 
 
