@@ -4,7 +4,7 @@ metadata:
   name: myservice
 spec:
   ports:
-    - nodePort: 31280
+    - nodePort: 31200
       port: 8080
       protocol: TCP
       targetPort: 8080
